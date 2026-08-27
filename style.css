@@ -1,1 +1,120 @@
 body{margin:0;font-family:'DM Sans',sans-serif;background:#fffaf3;color:#222}*{box-sizing:border-box}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}.site-header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:14px 5%;background:rgba(255,250,243,.96);border-bottom:1px solid #eadfd9}.brand{display:flex;align-items:center;gap:12px}.brand img{width:62px;height:62px;border-radius:50%;object-fit:cover}.brand div{display:grid}.brand strong{font-size:18px}.brand span{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#df3e70}.site-nav{display:flex;gap:28px;font-size:14px;font-weight:600}.site-nav a:hover{color:#df3e70}.menu-toggle{display:none;border:0;background:none;font-size:28px}.hero{min-height:650px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:70px;padding:80px 7%}.hero h1,.page-hero h1,.section h2{font-family:'Patrick Hand',cursive;font-weight:400}.hero h1{font-size:clamp(54px,6vw,92px);line-height:.98;margin:10px 0 22px}.hero-description,.page-intro,.narrow{line-height:1.7;color:#66605d}.hero-description{font-size:20px;max-width:650px}.eyebrow{margin:0;color:#df3e70;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:700}.button-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}.button{display:inline-flex;padding:12px 22px;border-radius:999px;font-weight:700}.primary{background:#f65083;color:#fff}.secondary{background:#fff;border:2px solid #222}.text-button{padding-left:8px;padding-right:8px}.hero-art{position:relative;display:grid;place-items:center}.logo-card{width:min(430px,85%);padding:18px;background:#fff;border-radius:48px;box-shadow:0 24px 70px rgba(60,40,40,.12);transform:rotate(2deg)}.logo-card img{border-radius:34px}.doodle{position:absolute;font-family:'Patrick Hand',cursive}.heart{right:2%;top:2%;font-size:82px;color:#f65083}.star{left:2%;bottom:3%;font-size:78px;color:#f6b817}.section{padding:80px 7%}.section h2{font-size:clamp(42px,5vw,68px);line-height:1;margin:8px 0 18px}.large-copy{max-width:1000px;font-size:clamp(20px,2vw,28px);line-height:1.65}.soft-pink{background:#ffe2ea}.soft-yellow{background:#fff2bd}.soft-purple{background:#eee8ff}.centered{text-align:center}.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1050px;margin:38px auto 0}.stat-card{min-height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:30px;border-radius:28px;text-align:center}.stat-card strong{font-family:'Patrick Hand',cursive;font-size:54px}.pink-card{background:#ffe2ea}.yellow-card{background:#fff2bd}.purple-card{background:#eee8ff}.white-card{background:#fff}.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.placeholder-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.placeholder-grid div{min-height:150px;display:grid;place-items:center;background:#fff;border:2px dashed #e7bc4e;border-radius:26px;font-family:'Patrick Hand',cursive;font-size:30px}.placeholder-grid div:first-child{grid-row:span 2}.narrow{max-width:760px;margin:0 auto}.page-hero{text-align:center;padding:90px 7% 45px}.page-hero h1{font-size:clamp(52px,6vw,84px);line-height:1;margin:10px 0}.page-intro{max-width:760px;margin:0 auto 35px;font-size:18px}.about-layout{display:grid;grid-template-columns:360px 1fr;gap:70px;align-items:center}.about-logo img{border-radius:42px;box-shadow:0 20px 60px rgba(50,40,40,.1)}.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.team-card{padding:18px 18px 26px;background:#fff;border:1px solid #eadfd9;border-radius:26px;text-align:center}.team-photo{aspect-ratio:1;display:grid;place-items:center;background:#ffe2ea;border-radius:20px;color:#df3e70;font-family:'Patrick Hand',cursive;font-size:28px}.event-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}.event-card{overflow:hidden;background:#fff;border:1px solid #eadfd9;border-radius:28px}.event-visual{min-height:250px;display:grid;place-items:center;background:#ffe2ea;font-size:80px}.event-card>div:last-child{padding:26px}.top-space{margin-top:36px}.contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:1100px;margin:0 auto}.contact-card{display:flex;flex-direction:column;align-items:flex-start;padding:34px;background:#fff;border:1px solid #eadfd9;border-radius:28px}.contact-card h2{font-family:'DM Sans',sans-serif;font-size:24px}.contact-card p{color:#66605d}.contact-card a{margin-top:7px;color:#df3e70;font-weight:700;overflow-wrap:anywhere}.site-footer{display:flex;justify-content:space-between;gap:30px;padding:36px 7%;background:#222;color:#fff}.site-footer p{color:#d8d3cf}.footer-links{display:flex;gap:20px;flex-wrap:wrap}@media(max-width:900px){.menu-toggle{display:block}.site-nav{display:none;position:absolute;top:91px;left:0;right:0;flex-direction:column;background:#fffaf3}.site-nav.open{display:flex}.site-nav a{padding:16px 24px;border-top:1px solid #eadfd9}.hero,.split,.about-layout{grid-template-columns:1fr}.hero{text-align:center}.button-row{justify-content:center}.stats-grid,.team-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.brand div{display:none}.brand img{width:54px;height:54px}.stats-grid,.team-grid,.event-grid,.contact-grid{grid-template-columns:1fr}.placeholder-grid{grid-template-columns:1fr}.placeholder-grid div:first-child{grid-row:auto}.site-footer{flex-direction:column}}
+
+
+/* ===== Our Work: Halloween event ===== */
+
+.event-feature {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.event-feature-heading {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 50px;
+  align-items: end;
+  margin-bottom: 34px;
+}
+
+.event-feature-heading h2 {
+  margin-bottom: 0;
+}
+
+.event-description {
+  margin: 0;
+  max-width: 700px;
+  color: #66605d;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 30px;
+  background: #222;
+  box-shadow: 0 20px 55px rgba(50, 40, 40, .12);
+}
+
+.video-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.gallery-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 46px 0 18px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 34px;
+}
+
+.gallery-doodle {
+  color: #f65083;
+  letter-spacing: 8px;
+}
+
+.event-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 280px;
+  gap: 18px;
+}
+
+.gallery-item {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #f7eee9;
+  box-shadow: 0 10px 28px rgba(55, 40, 40, .07);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-tall {
+  grid-row: span 2;
+}
+
+.gallery-wide {
+  grid-column: span 2;
+}
+
+@media (max-width: 900px) {
+  .event-feature-heading {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .event-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-wide {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 620px) {
+  .event-gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 260px;
+  }
+
+  .gallery-tall,
+  .gallery-wide {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .gallery-label {
+    font-size: 28px;
+  }
+}
