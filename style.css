@@ -327,3 +327,74 @@ a.team-location-card:hover {
 .nav-dropdown:hover .nav-dropdown-menu {
   display: block;
 }
+
+
+/* ===== Our Team dropdown fix ===== */
+
+.site-header,
+.site-nav,
+.nav-dropdown {
+  overflow: visible;
+}
+
+.site-nav {
+  align-items: center;
+}
+
+.nav-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  min-width: 220px;
+  padding: 10px;
+
+  background: #ffffff;
+  border: 1px solid #eadfd9;
+  border-radius: 16px;
+
+  box-shadow: 0 14px 35px rgba(55, 40, 40, .12);
+
+  z-index: 1000;
+
+  transition: opacity .15s ease, visibility .15s ease;
+}
+
+.nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 11px 14px;
+  border-radius: 10px;
+  white-space: nowrap;
+  color: #222222;
+}
+
+.nav-dropdown-menu a:hover {
+  background: #ffe2ea;
+  color: #df3e70;
+}
