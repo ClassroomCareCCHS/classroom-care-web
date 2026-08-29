@@ -398,3 +398,72 @@ a.team-location-card:hover {
   background: #ffe2ea;
   color: #df3e70;
 }
+
+
+/* ===== FINAL Our Team dropdown fix ===== */
+
+.nav-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 230px;
+  padding: 10px;
+
+  background: #ffffff;
+  border: 1px solid #eadfd9;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  z-index: 9999;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+
+  color: #222222;
+  background: transparent;
+
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  background: #ffe2ea;
+  color: #df3e70;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* invisible bridge so the menu doesn't disappear
+   while moving your mouse downward */
+.nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 0;
+  right: 0;
+  height: 14px;
+}
