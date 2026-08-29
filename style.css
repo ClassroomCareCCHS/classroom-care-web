@@ -284,3 +284,46 @@ a.team-location-card:hover {
   background: #f5efeb;
   color: #77706c;
 }
+
+
+/* ===== Our Team navigation dropdown ===== */
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-link {
+  display: inline-block;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 220px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #eadfd9;
+  border-radius: 16px;
+  box-shadow: 0 14px 35px rgba(55, 40, 40, .12);
+  z-index: 200;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 11px 14px;
+  border-radius: 10px;
+  white-space: nowrap;
+  color: #222222;
+}
+
+.nav-dropdown-menu a:hover {
+  background: #ffe2ea;
+  color: #df3e70;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: block;
+}
