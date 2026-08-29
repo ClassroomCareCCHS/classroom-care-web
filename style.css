@@ -261,3 +261,26 @@ a.team-location-card:hover {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Our Team location card colors */
+
+.team-ucla-cover {
+  background: #eee8ff;
+  color: #8a6adf;
+}
+
+.team-chatsworth-cover {
+  background: #ffe2ea;
+  color: #f65083;
+}
+
+.team-providence-cover {
+  background: #fff2bd;
+  color: #d99b00;
+}
+
+.team-coming-cover {
+  background: #f5efeb;
+  color: #77706c;
+}
