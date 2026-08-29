@@ -183,3 +183,81 @@ a.event-cover-card:hover {
     font-size: 28px;
   }
 }
+
+
+
+/* ===== Our Team location selector ===== */
+
+.team-location-section {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.team-location-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.team-location-card {
+  display: block;
+  overflow: hidden;
+  border-radius: 30px;
+  background: #ffffff;
+  border: 1px solid #eadfd9;
+  box-shadow: 0 14px 38px rgba(55, 40, 40, .07);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+a.team-location-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 48px rgba(55, 40, 40, .12);
+}
+
+.team-location-cover {
+  height: 300px;
+  display: grid;
+  place-items: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 58px;
+  text-align: center;
+}
+
+.ucla-cover {
+  background: #eee8ff;
+}
+
+.chatsworth-cover {
+  background: #ffe2ea;
+}
+
+.providence-cover {
+  background: #fff2bd;
+}
+
+.coming-cover {
+  background: #f5efeb;
+}
+
+.team-location-text {
+  padding: 28px 30px 32px;
+}
+
+.team-location-text h2 {
+  margin: 6px 0 10px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 44px;
+  line-height: 1;
+}
+
+.team-location-text p:not(.eyebrow) {
+  margin: 0 0 18px;
+  color: #66605d;
+  line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+  .team-location-grid {
+    grid-template-columns: 1fr;
+  }
+}
